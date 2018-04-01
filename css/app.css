@@ -122,11 +122,6 @@ footer span:hover{
 	border-radius: 5px;
 	color: white;
 }
-.contenedor-info img {
-  width: 150px;
-  border-radius: 50%;
-  margin-bottom: 15px;
-}
 .contenedor-info h2{
   text-align: center;
   text-shadow: 0 0 3px;
@@ -232,6 +227,23 @@ footer span:hover{
   width: 1250px;
   margin: 0 auto;
   font-size: 20px;
+}
+.texto {
+  line-height: 1.5em;
+  display: flex;
+}
+.img-sobremi {
+  margin-top: 20px;
+}
+.img-sobremi img {
+  width: 250px;
+  height: 370px;
+}
+.parrafo-sobremi {
+  margin: 20px;
+}
+.parrafo-sobremi h2 {
+  margin-bottom: 20px;
 }
 /*FIN - SOBRE MI*/
 
