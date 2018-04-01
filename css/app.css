@@ -138,6 +138,10 @@ footer span:hover{
   display: flex;
   font-size: 40px;
 }
+.social a {
+  text-decoration: none;
+  color: white;
+}
 .social span{
   margin: 0 14px;
 }
@@ -230,17 +234,18 @@ footer span:hover{
 }
 .texto {
   line-height: 1.5em;
+  padding: 10px;
   display: flex;
 }
 .img-sobremi {
-  margin-top: 20px;
+  display: flex;
+  align-items: center;
 }
 .img-sobremi img {
-  width: 250px;
-  height: 370px;
+  width: 300px;
 }
 .parrafo-sobremi {
-  margin: 20px;
+  margin: 30px;
 }
 .parrafo-sobremi h2 {
   margin-bottom: 20px;
