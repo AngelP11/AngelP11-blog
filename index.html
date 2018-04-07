@@ -4,8 +4,8 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>AngelP11 - Tech</title>
-		<link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
-		<link rel="stylesheet" href="css/app.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="css/app.min.css">
 		<link rel="apple-touch-icon" sizes="57x57" href="./assets/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="./assets/apple-icon-60x60.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="./assets/apple-icon-72x72.png">
@@ -33,7 +33,7 @@
 
 			<nav class="menu"><!-- Menu -->
 				<ul>
-					<li><a href="#blog">BLOG</a></li>
+					<!-- <li><a href="#blog">BLOG</a></li> -->
 					<li><a href="#portafolio">PORTAFOLIO</a></li>
 					<li><a href="#sobre-mi">SOBRE MI</a></li>
 					<li><a href="#contacto">CONTACTO</a></li>
@@ -54,7 +54,31 @@
 			</div>
 		</section>
 
-		<section class="blog-container" id="blog">
+		<section class="portafolio-container" id="portafolio">
+			<h2 class="txt-title">Portafolio</h2>
+
+			<article class="proyectos">
+				<div class="proyecto">
+					<img src="./images/invie.png" alt="invie">
+					<div class="info">
+						<h2>Invie</h2>
+						<p>Stack: HTML5, CSS3, Javascript, HammerJS</p>
+						<a href="#">GitHub</a>
+					</div>
+				</div>
+
+				<div class="proyecto">
+					<img src="./images/llanorunners.png" alt="llanorunners">
+					<div class="info">
+						<h2>Llanorunners</h2>
+						<p>Stack: HTML5, CSS3, Javascript, PHP, Laravel, MySQL</p>
+						<a href="#">Web Site</a>
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<!-- <section class="blog-container" id="blog">
 			<p class="txt-title">Blog</p>
 			<div class="linea"></div>
 
@@ -94,34 +118,10 @@
 					<p class="fecha">11 de Diciembre del 2016</p>
 				</div>
 			</article>
-		</section>
-
-		<section class="portafolio-container" id="portafolio">
-			<p class="txt-title">Portafolio</p>
-
-			<article class="proyectos">
-				<div class="proyecto">
-					<img src="./images/invie.png" alt="invie">
-					<div class="info">
-						<h2>Invie</h2>
-						<p>Stack: HTML5, CSS3, Javascript, HammerJS</p>
-						<a href="#">GitHub</a>
-					</div>
-				</div>
-
-				<div class="proyecto">
-					<img src="./images/llanorunners.png" alt="llanorunners">
-					<div class="info">
-						<h2>Llanorunners</h2>
-						<p>Stack: HTML5, CSS3, Javascript, PHP, Laravel, MySQL</p>
-						<a href="#">Web Site</a>
-					</div>
-				</div>
-			</article>
-		</section>
+		</section> -->
 
 		<section class="sobremi-container" id="sobre-mi">
-			<p class="txt-title">Sobre Mi</p>
+			<h2 class="txt-title">Sobre Mí</h2>
 			<div class="linea"></div>
 
 			<div class="texto">
@@ -137,7 +137,7 @@
 		</section>
 
 		<section class="contacto-container" id="contacto">
-			<p class="txt-title">Contacto</p>
+			<h2 class="txt-title">Contacto</h2>
 
 			<div class="txt-container">
 				<p>¿Quieres hablar conmigo?</p>
